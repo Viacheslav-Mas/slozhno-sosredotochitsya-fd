@@ -12,10 +12,11 @@
   --text-color: #F1B2CE;
   --elements-color: #FF0070;
   --accent-color: #FF0070;
+  --display-type: inline-block;
 }
 
-.theme-dark .header__icon {
-  display: block;
+/*.theme-dark .header__icon {
+  display: inline-block;
   position: absolute;
   top: var(--small-indent);
   right: var(--small-indent);
@@ -23,7 +24,7 @@
 }
 
 .theme-dark .header__icon::after {
-  display: block;
+  display: inline-block;
   content: "";
   display: inline-block;
   inline-size: 9px;
@@ -36,7 +37,7 @@
     0 0 6px currentColor,
     0 0 8px currentColor,
     0 0 9px currentColor;
-}
+}*/
 
 .theme-dark .header__theme-menu-button:hover {
   display: block;

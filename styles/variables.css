@@ -20,4 +20,6 @@
   --article-margin: 40px;
   --small-gap: 10px;
   --normal-gap: 20px;
+  --display-type: inline-block;
+  --hover-color: rgba(255, 0, 112, 40%);
 }
